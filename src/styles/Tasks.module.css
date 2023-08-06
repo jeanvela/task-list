@@ -1,0 +1,77 @@
+.sectionTask {
+    width: 100%;
+    padding: 3rem 1rem;
+    display: grid;
+    place-items: center;
+}
+
+.btnVol {
+    border: none;
+    font-size: 1rem;
+    width: 100px;
+    font-weight: bold;
+    padding: 8px 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: #023e8a;
+}
+
+.h1 {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+}
+
+.contaiTask {
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+    height: 230px;
+    overflow-y: auto;
+}
+
+@media (min-width: 375px) {
+    .contaiTask {
+        height: 370px;
+    }
+}
+
+
+@media (min-width: 560px) {
+
+    .contaiTask {
+        height: 480px;
+    }
+
+    .btnVol {
+        font-size: 1.6rem;
+        width: 150px;
+    }
+
+    .h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 720px) {
+    .contaiTask {
+        width: 680px;
+    }   
+}
+
+@media (min-width: 820px) {
+    .h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 910px) {
+    .contaiTask {
+        height: 100%;
+        max-height: 700px;
+    }
+}
